@@ -1,0 +1,36 @@
+/* reseta o navegador*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*altera a cor do fundo e a fonte das letras */
+body { 
+    background-color: bisque;
+    font-family: sans-serif;
+}
+/*classe que altera o header */
+.cabecalho { 
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*posição so texto,tamanho do texto,
+espaço em relação ao topo e ao rodapé */
+h1 { 
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*alinha no centro, escolhe a fonte, a cor da fonte
+tamanho da fonte e espaço do texto em relação
+ao elemento de baixo */
+p { 
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: 20px ;
+    padding-bottom: 20px;
+}
